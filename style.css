@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #061820;
+}
+
+#top-header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 1000px;
+    margin: 25px;
+    color: #feffbc;
+    background-color: #13678A;
+    border-radius: 25px;
+    box-shadow: #13668abe 0px 0px 50px;
+}
+
+.content-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #9AEBA3;
+    color: #253d49;
+    font-weight: bold;
+    box-shadow: #9aeba3c5 0px 0px 50px;
+    width: 500px;
+    font-size: 30px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-between {
+    margin-top: 20px;
+    background-color: #9AEBA3;
+    padding: 15px;
+    border-radius: 10px;
+    color: #253d49;
+    box-shadow: #9AEBA3 0px 0px 10px;
+}
+
+.text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: #45c4b1c3 0px 0px 10px;
+    background-color: #45C4B0;
+}
+
+.img {
+    width: 500px;
+    border-radius: 25px;
+}
+
+#hell {
+    margin-bottom: 50px;
+}
